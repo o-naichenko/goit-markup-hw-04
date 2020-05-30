@@ -19,20 +19,23 @@
       <nav class="nav-container">
         <a class="logo" lang="en" href="./index.html">Web <span class="studio">Studio</span></a>
         <ul class="nav-list">
-          <li class="nav-item"><a class="nav-link" href="./index.html">Студия</a></li>
-          <li class="nav-item"><a class="nav-link" href="./portfolio.html">Портфолио</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Студия</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./portfolio.html">Портфолио</a>
+          </li>
           <li class="nav-item"><a class="nav-link" href="">Контакты</a></li>
         </ul>
       </nav>
       <address class="address">
-        <a class="address-link" lang="en" href="mailto:info@devstudio.com"><img class="pic" src="./images/envelope.svg"
-            alt="envelope">
-          info@devstudio.com</a>
-        <a class="address-link" href="tel:+380961111111"> <img class="pic" src="./images/smartphone.svg"
-            alt="smartphone">
-          +38
-          096 111 11
-          11</a>
+        <a class="address__link" lang="en" href="mailto:info@devstudio.com"><svg class="address__icon" width="16px"
+            height="11.2px">
+            <use href="./images/symbol-defs.svg#envelope"></use>
+          </svg>info@devstudio.com</a>
+        <a class="address__link" href="tel:+380961111111"><svg class="address__icon" width="10px" height="14.94px">
+            <use href="./images/symbol-defs.svg#smartphone"></use>
+          </svg>+38 096 111 11 11</a>
       </address>
     </div>
   </header>
@@ -41,10 +44,10 @@
       <div class="container">
         <!-- filter -->
         <ul class="filter-list">
+          <li class="filter-item"><button class="filter-button">Все</button></li>
           <li class="filter-item"><button class="filter-button">Веб-сайты</button></li>
           <li class="filter-item"><button class="filter-button">Приложения</button></li>
           <li class="filter-item"><button class="filter-button">Дизайн</button></li>
-          <li class="filter-item"><button class="filter-button">Все</button></li>
           <li class="filter-item"><button class="filter-button">Маркетинг</button></li>
         </ul>
         <!-- gallery -->
@@ -52,7 +55,7 @@
           <!-- Технокряк -->
           <li class="card-item">
             <a class="card-link" href="">
-              <img src="./images/technokriak.jpg" width="370" height="294" alt="изображение сайта на экране ноутбука" />
+              <img src="./images/Технокряк.jpg" width="370" height="294" alt="изображение сайта на экране ноутбука" />
               <div class="text">
                 <h2 class="card-header">Технокряк</h2>
                 <p class="type">Веб-сайт</p>
@@ -67,7 +70,7 @@
           <!-- Постер New Orlean vs Golden Stars -->
           <li class="card-item">
             <a class="card-link" href="">
-              <img src="./images/new-orlean-vs-golden-stars.jpg" width="370" height="294"
+              <img src="./images/Постер New Orlean vs Golden Star.jpg" width="370" height="294"
                 alt="два баскетболиста борятся за мяч" />
               <div class="text">
                 <h2 class="card-header">
@@ -85,7 +88,7 @@
           <!-- Ресторан Seafood -->
           <li class="card-item">
             <a class="card-link" href="">
-              <img src="./images/restaurant-seafood.jpg" width="370" height="294" alt="логотип ресторана" />
+              <img src="./images/Ресторан Seafood.jpg" width="370" height="294" alt="логотип ресторана" />
               <div class="text">
                 <h2 class="card-header">Ресторан Seafood</h2>
                 <p class="type">Приложение</p>
@@ -100,7 +103,7 @@
           <!-- Проект Prime -->
           <li class="card-item">
             <a class="card-link" href="">
-              <img src="./images/project-prime.jpg" width="370" height="294" alt="беспроводные наушники" />
+              <img src="./images/ Проект Prime.jpg" width="370" height="294" alt="беспроводные наушники" />
               <div class="text">
                 <h2 class="card-header">Проект Prime</h2>
                 <p class="type">Маркетинг</p>
@@ -115,7 +118,7 @@
           <!-- Проект Boxes -->
           <li class="card-item">
             <a class="card-link" href="">
-              <img src="./images/project-boxes.jpg" width="370" height="294" alt="две коробки" />
+              <img src="./images/Проект Boxes.jpg" width="370" height="294" alt="две коробки" />
               <div class="text">
                 <h2 class="card-header">Проект Boxes</h2>
                 <p class="type">Приложение</p>
@@ -130,7 +133,7 @@
           <!-- Inspiration has no Borders -->
           <li class="card-item">
             <a class="card-link" href="">
-              <img src="./images/inspiration-has-no-borders.jpg" width="370" height="294"
+              <img src="./images/Inspiration has no Borders.jpg" width="370" height="294"
                 alt="веб-сайт на экране компьютера" />
               <div class="text">
                 <h2 class="card-header">Inspiration has no Borders</h2>
@@ -146,7 +149,8 @@
           <!-- Издание Limited Edition -->
           <li class="card-item">
             <a class="card-link" href="">
-              <img src="./images/limited-edition.jpg" width="370" height="294" alt="разворот глянцевого журнала" />
+              <img src="./images/Издание Limited Edition.jpg" width="370" height="294"
+                alt="разворот глянцевого журнала" />
               <div class="text">
                 <h2 class="card-header">Издание Limited Edition</h2>
                 <p class="type">Дизайн</p>
@@ -161,7 +165,7 @@
           <!-- Проект LAB -->
           <li class="card-item">
             <a class="card-link" href="">
-              <img src="./images/project-lab.jpg" width="370" height="294" alt="бирка с надписью лаб эль тэг" />
+              <img src="./images/Проект LAB.jpg" width="370" height="294" alt="бирка с надписью лаб эль тэг" />
               <div class="text">
                 <h2 class="card-header">Проект LAB</h2>
                 <p class="type">Маркетинг</p>
@@ -176,7 +180,7 @@
           <!-- Growing Business -->
           <li class="card-item">
             <a class="card-link" href="">
-              <img src="./images/growing-business.jpg" width="370" height="294"
+              <img src="./images/Growing Business.jpg" width="370" height="294"
                 alt="сайт компании на экране ноутбука" />
               <div class="text">
                 <h2 class="card-header">Growing Business</h2>
@@ -207,33 +211,29 @@
       <div class="connect block">
         <b class="block-title">присоединяйтесь</b>
         <ul class="connect-list">
-          <li class="connect-item">
-            <a class="connect-link" href="">
-              <img src="./img/instagram-logo.svg" alt="instagram logo" />
+          <li class="connect-list__item">
+            <a class="connect-list__link" href="">
+              <svg class="connect-list__icon" aria-label="instagram">
+                <use href="./images/symbol-defs.svg#instagram"></use>
+              </svg>
             </a>
           </li>
-          <li class="connect-item">
-            <a class="connect-link" href="">
-              <img src="./img/twitter-logo.svg" alt="twitter logo" />
-            </a>
+          <li class="connect-list__item">
+            <a class="connect-list__link" href=""><svg class="connect-list__icon" aria-label="twitter">
+                <use href="./images/symbol-defs.svg#twitter"></use>
+              </svg></a>
           </li>
-          <li class="connect-item">
-            <a class="connect-link" href="">
-              <img src="./img/facebook-logo.svg" alt="facebook logo" />
-            </a>
+          <li class="connect-list__item">
+            <a class="connect-list__link" href=""><svg class="connect-list__icon" aria-label="facebook">
+                <use href="./images/symbol-defs.svg#facebook"></use>
+              </svg></a>
           </li>
-          <li class="connect-item">
-            <a class="connect-link" href="">
-              <img src="./img/linkedin-logo.svg" alt="linkedin logo" />
-            </a>
+          <li class="connect-list__item">
+            <a class="connect-list__link" href=""><svg class="connect-list__icon" aria-label="linkedin">
+                <use href="./images/symbol-defs.svg#linkedin"></use>
+              </svg></a>
           </li>
         </ul>
-        <!-- <ul>
-                  <a href="" aria-label="Instagram link">Instagram</a>
-                  <a href="" aria-label="Twitter link">Twitter</a>
-                  <a href="" aria-label="Facebook link">Facebook</a>
-                  <a href="" aria-label="LinkedIn link">LinkedIn</a>
-                </ul> -->
       </div>
       <!-- подписаться на рассылку -->
       <div class="subscribe block">
@@ -241,7 +241,10 @@
         <!-- e-mail -->
         <div class="subscribe-container">
           <div class="email">E-mail</div>
-          <button class="button">Подписаться</button>
+          <button class="subscribe-container__button"><span class="subscribe-container__title">Подписаться</span><svg
+              class="subscribe-container__icon" width="24" height="24" aria-label="paper plane">
+              <use href="./images/symbol-defs.svg#icon-send"></use>
+            </svg></button>
         </div>
       </div>
     </div>

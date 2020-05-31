@@ -13,9 +13,8 @@ body {
   font-family: roboto, sans-serif;
 }
 /* utilits */
-a {
-  text-decoration: none;
-}
+/* a {
+  text-decoration: none; */
 img {
   display: block;
   /* margin: auto; */
@@ -65,6 +64,7 @@ img {
   font-size: 26px;
   line-height: 1.19;
   display: inline-block;
+  text-decoration: none;
 }
 .logo .studio {
   color: #000000;
@@ -92,6 +92,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -114,6 +115,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .address__link:hover,
 .address__link:focus {
@@ -226,11 +228,6 @@ img {
 .works-item {
   width: calc((100% - 60px) / 3);
 }
-.works-link {
-  display: block;
-  margin: 0;
-  padding: 0;
-}
 .works-title {
   display: block;
   margin: 0;
@@ -330,7 +327,6 @@ img {
   height: 90px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  text-align: center;
   color: var(--icon-color);
 }
 .clients-link:hover,
@@ -370,6 +366,7 @@ img {
   font-size: 22px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .footer .studio {
   color: var(--white-color);
@@ -393,6 +390,7 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .footer-address > .link:hover,
 .footer-address > .link:focus {
